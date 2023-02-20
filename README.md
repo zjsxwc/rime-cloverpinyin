@@ -1,3 +1,32 @@
+
+
+```
+yay -S boost
+yay -S rime-cloverpinyin
+sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-configtool fcitx5-rime
+```
+
+
+```
+$ cat ~/.xinitrc 
+#!/bin/bash
+...
+export XMODIFIERS=@im=fcitx
+export QT_IM_MODULE=fcitx
+export GTK_IM_MODULE=fcitx
+export QT4_IM_MODULE=fcitx
+export XIM_MODULE=fcitx
+...
+
+$ cat  ~/.config/fcitx/rime/default.custom.yaml
+patch:
+  "menu/page_size": 8
+  schema_list:
+    - schema: clover
+```
+
+
+
 你是否经历过搜狗输入法总是闪退bug的绝望？
 
 你是否经历过 fcitx 自带输入法的词库简陋？
