@@ -3,7 +3,7 @@
 ```
 yay -S boost
 yay -S rime-cloverpinyin
-sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-configtool fcitx5-rime
+sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-configtool fcitx5-rime manjaro-asian-input-support-fcitx5
 ```
 
 
