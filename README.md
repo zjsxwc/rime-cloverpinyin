@@ -18,6 +18,7 @@ export QT4_IM_MODULE=fcitx
 export XIM_MODULE=fcitx
 ...
 
+$ mkdir -p ~/.local/share/fcitx5/rime/
 $ cat  ~/.local/share/fcitx5/rime/default.custom.yaml
 patch:
   "menu/page_size": 8
