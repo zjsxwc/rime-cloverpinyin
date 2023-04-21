@@ -4,7 +4,7 @@
 yay -S boost
 yay -S rime-cloverpinyin rime-pinyin-simp rime-double-pinyin
 sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-configtool fcitx5-rime manjaro-asian-input-support-fcitx5 
-cat /usr/share/rime-data/build/
+ls /usr/share/rime-data/build/
 
 ```
 
