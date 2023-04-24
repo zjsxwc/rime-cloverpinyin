@@ -28,6 +28,8 @@ patch:
     - schema: clover
     - schema: luna_pinyin_simp
     - schema: double_pinyin
+  simplifier:
+    option_name: zh_simp
 ```
 
 
